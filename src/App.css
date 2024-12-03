@@ -40,3 +40,44 @@
 .read-the-docs {
   color: #888;
 }
+
+
+/* Full Page Background */
+.full-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full height of the viewport */
+}
+
+/* Top Section with Black Background */
+.top-section {
+  background-color: black;
+  color: white;
+  flex: 1; /* Takes up remaining space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-section h1 {
+  font-size: 3rem;
+  padding-top: 20px;
+}
+
+/* Bottom Section with Purple Background */
+.bottom-section {
+  background-color: #6a0dad; /* Purple background */
+  flex: 2; /* Takes up twice the space as the top section */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Optional: Customize the container */
+.container {
+  background-color: transparent;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+
